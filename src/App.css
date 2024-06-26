@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.counter-container{
+  display: flex;
+  align-items: center;
+}
+
+.counter{
+  font-size: 32px;
+  padding: 10px;
+}
+
+.button{
+  font-size: 30px;
+  color: #61dafb;
+  font-style: italic;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  
+}

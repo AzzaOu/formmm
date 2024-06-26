@@ -1,0 +1,29 @@
+/* Styles.css */
+.form-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .questions-container {
+    margin-top: 20px;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question p {
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  

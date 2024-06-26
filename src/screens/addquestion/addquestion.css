@@ -1,0 +1,147 @@
+.add-question-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.add-new-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto 30px;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#addFormButton {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+  min-width: 80px;
+  font-size: 14px;
+}
+
+#addFormButton:hover {
+  background-color: #0056b3;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+button.remove-option, button.add-question, button.remove-question, button.add-option {
+  width: auto;
+  min-width: 50px;
+  margin-top: 5px;
+}
+
+.remove-option, .remove-question {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.remove-option:hover, .remove-question:hover {
+  color: darkred;
+}
+
+.question-container {
+  margin-bottom: 10px;
+}
+
+.question-container .form-group {
+  display: flex;
+  align-items: center;
+}
+
+.add-option {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.add-option:hover {
+  color: #0056b3;
+}
+.form-group {
+  margin-bottom: 1rem;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto 1fr 30px; /* 1fr for the input to take remaining space */
+  align-items: center; /* Vertically center items */
+  padding: 10px;
+}
+
+.form-group span {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group button {
+  padding: 0.5rem 1rem;
+  background-color: #090a0a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #0056b3; 
+}

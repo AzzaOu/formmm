@@ -1,0 +1,21 @@
+.form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-group label {
+    margin-right: 2rem; /* Ajoute de la marge à droite de la case à cocher */
+    
+  }
+  
+  .form-group input[type="checkbox"] {
+    margin-right: 1rem; /* Ajoute de la marge à droite de la case à cocher */
+    
+  }
+  
+  .form-group input[type="text"] {
+    margin-right: 1px; /* Ajoute de la marge à droite de l'input option */
+    
+  }
+  

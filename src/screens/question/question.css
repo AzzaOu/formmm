@@ -1,0 +1,71 @@
+.question-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.add-form-button {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-form-button:hover {
+  background-color: #0056b3;
+}
+
+.forms-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.forms-table th, .forms-table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.forms-table th {
+  background-color: #f2f2f2;
+}
+
+.actions-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions-cell button {
+  border: none;
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin: 0 0.2rem;
+}
+
+.view-button {
+  background-color: green;
+  color: white;
+}
+
+.edit-button {
+  background-color: yellow;
+  color: black;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+}
+
+.actions-cell button:hover {
+  opacity: 0.8;
+}
